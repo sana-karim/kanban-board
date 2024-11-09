@@ -1,0 +1,44 @@
+.backlog-container {
+    display: flex;
+    flex-direction: column;
+    width: 22.5vw;
+    height: 66vh;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .backlog-container {
+        align-items: center;
+        width: 82vw;
+        height: 70vh;
+        margin-bottom: 6vh;
+    }
+}
+
+.backlog-top {
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    justify-content: center;
+    width: 22.5vw;
+}
+
+.backlog-bottom {
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    background-color: white;    
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #0e973b;
+}

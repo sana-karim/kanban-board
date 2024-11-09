@@ -1,0 +1,50 @@
+.create-task-container {
+    display: flex;
+    height: 2.5em;
+    margin-bottom: 40px;
+}
+
+.input-task {
+    display: flex;
+    flex: 0.535;
+    justify-content: flex-end;
+}
+
+.task-input-field {
+    border: none;
+    background-color: rgb(245, 245, 245);
+    padding-left: 10px;
+    outline: none;
+}
+.task-input-field:focus{
+    border: thin solid lightgray;
+    box-sizing: border-box;
+}
+
+/* use background gradient image for background (in App.css) */
+.create-task {
+    display: flex;
+    flex: 0.465;
+    margin-left: 20px;
+}
+
+.create-task button {
+    background-color: #0e973b;
+    border: none;
+    color: white;
+    padding: 0 18px;
+    font-weight: 600;
+    box-shadow: 0px 10px 18px -4px rgba(31, 153, 72, 0.61);
+    /* implement button shadow css */
+}
+
+.create-task button:active {
+    background-color: #0b7e31;
+}
+
+.emptyInputError{
+    box-sizing: border-box;
+    border: 1px solid red;
+    box-shadow: 0px 10px 18px -4px rgba(241, 118, 118, 0.664);
+
+}

@@ -1,0 +1,16 @@
+.card-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94vw;
+    height: 66vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-parent {
+        display: flex;
+        flex-direction: column;
+        width: 82vw;
+        height: auto;
+    }
+}

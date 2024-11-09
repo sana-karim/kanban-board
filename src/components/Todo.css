@@ -1,0 +1,34 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    width: 22.5vw;
+    height: 66vh;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .todo-container {
+        align-items: center;
+        width: 82vw;
+        height: 70vh;
+        margin-bottom: 6vh;
+    }
+}
+
+.todo-top {
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    justify-content: center;
+    width: 22.5vw;
+}
+
+.todo-bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
